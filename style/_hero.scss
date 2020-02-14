@@ -49,14 +49,14 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: start;
+    justify-content: center;
     margin-top: 1rem;
     @media screen and (max-width: 890px) {
       width: 90%;
       margin: auto;
     }
     h1 {
-      font-size: 3.7rem;
+      font-size: 3.3rem;
       line-height: 1.2;
       color: $DarkGrayishBlue;
       margin-bottom: 1.7rem;
