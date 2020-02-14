@@ -1,0 +1,102 @@
+.hero {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (max-width: 890px) {
+    flex-direction: column-reverse;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: -22%;
+    bottom: 11%;
+    width: 61%;
+    height: 155%;
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+
+    @media screen and (max-width: 890px) {
+      right: -60%;
+      bottom: 56%;
+      width: 155%;
+      height: 86%;
+    }
+  }
+  .hero-image {
+    width: 50%;
+    height: 420px;
+    background-image: url(../images/illustration-intro.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    @media screen and (max-width: 890px) {
+      width: 100%;
+      background-position: center;
+    }
+    @media screen and (max-width: 472px) {
+      height: 300px;
+    }
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: start;
+    margin-top: 1rem;
+    @media screen and (max-width: 890px) {
+      width: 90%;
+      margin: auto;
+    }
+    h1 {
+      font-size: 3.7rem;
+      line-height: 1.2;
+      color: $DarkGrayishBlue;
+      margin-bottom: 1.7rem;
+      @media screen and (max-width: 890px) {
+        text-align: center;
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      width: 80%;
+      color: hsl(20, 2%, 49%);
+      margin-bottom: 1.7rem;
+      @media screen and (max-width: 890px) {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+    }
+
+    .btn-hero {
+      border: none;
+      border-radius: 57px;
+      color: white;
+      background-color: $BrightRed;
+      width: 120px;
+      height: 40px;
+      font-weight: 600;
+      outline: none;
+      letter-spacing: 0.3px;
+      cursor: pointer;
+      box-shadow: 0px 5px 8px 1px rgba(242, 95, 58, 0.33);
+
+      &:hover {
+        opacity: 0.8;
+      }
+      @media screen and (max-width: 890px) {
+        margin: auto;
+      }
+    }
+  }
+}

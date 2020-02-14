@@ -1,0 +1,53 @@
+//Colors
+
+//Primary
+$BrightRed: hsl(12, 88%, 59%);
+$DarkBlue: hsl(228, 39%, 23%);
+
+//Neutral
+$DarkGrayishBlue: hsl(227, 58%, 5%);
+$VeryDarBlue: hsl(233, 12%, 13%);
+$VeryPaleRed: hsl(13, 100%, 96%);
+$VaryLightGray: hsl(0, 0%, 98%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+
+  @media screen and(max-width:1070px) {
+    width: 90%;
+  }
+}
+
+body {
+  font-size: 100%;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
