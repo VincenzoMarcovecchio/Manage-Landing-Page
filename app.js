@@ -1,13 +1,3 @@
-new Glider(document.querySelector(".glider"), {
-  slidesToShow: 2.5,
-  draggable: true,
-  dots: "#dots",
-  arrow: {
-    prev: ".glider-prev",
-    next: ".glidet-next"
-  }
-});
-
 const error = document.querySelector(".error");
 
 const email = document.querySelector(".email");

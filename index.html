@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
 
+    <!--Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap"
       rel="stylesheet"
@@ -260,8 +261,18 @@
 
     <!--Custom JV-->
     <script src="./app.js"></script>
-
     <!--Glider JS-->
     <script src="./glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector(".glider"), {
+        slidesToShow: 2.5,
+        draggable: true,
+        dots: "#dots",
+        arrow: {
+          prev: ".glider-prev",
+          next: ".glidet-next"
+        }
+      });
+    </script>
   </body>
 </html>
