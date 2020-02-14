@@ -43,12 +43,14 @@
       display: flex;
       margin-bottom: 1rem;
       align-items: center;
+      transform: translateX(-77px);
       @media screen and (max-width: 890px) {
         justify-content: flex-start;
         background-color: #fff0eb;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         width: 130%;
+        transform: none;
       }
 
       span {
@@ -93,7 +95,7 @@
   }
 
   .info-block-left {
-    width: 45%;
+    width: 35%;
 
     @media screen and (max-width: 890px) {
       width: 100%;
