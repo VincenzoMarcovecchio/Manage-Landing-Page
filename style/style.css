@@ -56,7 +56,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2rem !important;
+  margin-top: 3.5rem !important;
   margin-bottom: 2rem !important;
   position: relative;
   z-index: 2;
@@ -292,7 +292,7 @@ header .hamburger-icon {
 }
 
 .hero .text-container p {
-  width: 80%;
+  width: 68%;
   color: #7f7c7a;
   margin-bottom: 1.7rem;
 }
@@ -338,7 +338,7 @@ header .hamburger-icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 11rem;
   margin-bottom: 11rem;
   position: relative;
 }
@@ -349,7 +349,7 @@ header .hamburger-icon {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 9rem;
+    margin-top: 11rem;
     margin-bottom: 9rem;
   }
 }
@@ -495,7 +495,7 @@ header .hamburger-icon {
 
 .info-section p {
   color: #7f7c7a;
-  width: 65%;
+  width: 90%;
 }
 
 @media screen and (max-width: 890px) {
@@ -663,8 +663,6 @@ header .hamburger-icon {
     position: absolute;
     left: -55%;
     bottom: -162%;
-    z-index: 1;
-    opacity: 0.2;
     width: 71%;
     height: 246%;
   }
@@ -713,9 +711,9 @@ header .hamburger-icon {
 }
 
 .upper-footer .simplify {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
-  width: 50%;
+  width: 39%;
   z-index: 5;
 }
 

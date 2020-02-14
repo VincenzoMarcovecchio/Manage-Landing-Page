@@ -1,12 +1,12 @@
 .info-section {
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 11rem;
   margin-bottom: 11rem;
   position: relative;
   @media screen and (max-width: 890px) {
     flex-direction: column;
-    margin-top: 9rem;
+    margin-top: 11rem;
     margin-bottom: 9rem;
   }
 
@@ -111,7 +111,7 @@
   }
   p {
     color: #7f7c7a;
-    width: 65%;
+    width: 90%;
     @media screen and (max-width: 890px) {
       font-size: 1rem;
       text-align: center;

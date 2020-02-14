@@ -30,8 +30,6 @@
       position: absolute;
       left: -55%;
       bottom: -162%;
-      z-index: 1;
-      opacity: 0.2;
       width: 71%;
       height: 246%;
     }
@@ -75,9 +73,9 @@
   }
 
   .simplify {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
-    width: 50%;
+    width: 39%;
     z-index: 5;
     @media screen and (max-width: 890px) {
       font-size: 2rem;
