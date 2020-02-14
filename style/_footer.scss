@@ -132,6 +132,9 @@ footer {
       position: absolute;
       top: 48px;
     }
+    @media screen and (max-width: 450px) {
+      min-width: 0;
+    }
 
     input {
       width: 50%;

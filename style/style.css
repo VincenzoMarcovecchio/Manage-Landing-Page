@@ -950,6 +950,12 @@ footer .form {
   }
 }
 
+@media screen and (max-width: 450px) {
+  footer .form {
+    min-width: 0;
+  }
+}
+
 footer .form input {
   width: 50%;
   border: none;
