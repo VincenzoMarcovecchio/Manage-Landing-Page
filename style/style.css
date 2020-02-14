@@ -744,12 +744,13 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 @media screen and (max-width: 890px) {
   footer {
     position: relative;
-    height: 470px;
+    height: 520px;
   }
 }
 
@@ -775,7 +776,7 @@ footer .first-column {
   footer .first-column {
     width: 100%;
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
     height: 80px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -919,7 +920,8 @@ footer .second-list ul li a:hover {
 }
 
 footer .form {
-  width: 30%;
+  width: 36%;
+  min-width: 370px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1003,4 +1005,19 @@ footer .form .go {
 
 footer .form .go:hover {
   opacity: 0.8;
+}
+
+footer small {
+  color: #b3b3b3;
+  position: absolute;
+  bottom: 24%;
+  right: 14%;
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 890px) {
+  footer small {
+    bottom: 2%;
+    right: unset;
+  }
 }

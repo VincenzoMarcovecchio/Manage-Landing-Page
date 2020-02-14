@@ -6,9 +6,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
   @media screen and (max-width: 890px) {
     position: relative;
-    height: 470px;
+    height: 520px;
   }
 
   .first-column {
@@ -21,7 +22,7 @@ footer {
     @media screen and (max-width: 890px) {
       width: 100%;
       position: absolute;
-      bottom: 3%;
+      bottom: 10%;
       height: 80px;
       flex-direction: column-reverse;
     }
@@ -117,7 +118,8 @@ footer {
   }
 
   .form {
-    width: 30%;
+    width: 36%;
+    min-width: 370px;
     display: flex;
     align-items: center;
     align-self: flex-start;
@@ -176,6 +178,18 @@ footer {
       &:hover {
         opacity: 0.8;
       }
+    }
+  }
+  small {
+    color: #b3b3b3;
+    position: absolute;
+    bottom: 24%;
+    right: 14%;
+    font-size: 0.6rem;
+
+    @media screen and(max-width:890px) {
+      bottom: 2%;
+      right: unset;
     }
   }
 }
