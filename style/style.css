@@ -612,7 +612,7 @@ header .hamburger-icon {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: 4em auto 5em;
+  margin: 1em auto 11em;
 }
 
 .carousel .get-started:hover {
