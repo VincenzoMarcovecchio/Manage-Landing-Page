@@ -92,7 +92,7 @@ header {
       display: block;
       width: 25px;
       height: 18px;
-      background-image: url(/images/icon-hamburger.svg);
+      background-image: url(../images/icon-hamburger.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -102,7 +102,7 @@ header {
 }
 
 .hamburger-close {
-  background-image: url(/images/icon-close.svg) !important;
+  background-image: url(../images/icon-close.svg) !important;
 }
 
 .show {
