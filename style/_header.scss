@@ -19,7 +19,7 @@ header {
       text-align: center;
       background-color: white;
       flex-direction: column;
-      padding-top: 1.5rem;
+      padding-top: 1rem;
       border-radius: 4px;
       display: none;
 
@@ -55,6 +55,7 @@ header {
         color: $DarkGrayishBlue;
         font-weight: 600;
         @media screen and(max-width:890px) {
+          font-size: 1.2rem;
         }
         &:hover {
           color: hsl(16, 9%, 76%);

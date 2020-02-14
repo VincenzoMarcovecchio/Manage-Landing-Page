@@ -82,7 +82,7 @@ header ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     border-radius: 4px;
     display: none;
   }
@@ -127,6 +127,12 @@ header ul li a {
   cursor: pointer;
   color: #050914;
   font-weight: 600;
+}
+
+@media screen and (max-width: 890px) {
+  header ul li a {
+    font-size: 1.2rem;
+  }
 }
 
 header ul li a:hover {
