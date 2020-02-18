@@ -22,7 +22,7 @@ footer {
     @media screen and (max-width: 890px) {
       width: 100%;
       position: absolute;
-      bottom: 10%;
+      bottom: 15%;
       height: 80px;
       flex-direction: column-reverse;
     }
@@ -30,22 +30,19 @@ footer {
     a {
       margin-right: 15px;
       color: $VeryDarBlue;
-
+      &:last-child {
+        margin-right: 0;
+      }
       @media screen and (max-width: 890px) {
         margin-right: 25px;
       }
     }
 
-    svg :hover {
-      fill: $BrightRed;
-    }
     .social-wrapper {
-      @media screen and (max-width: 890px) {
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .logo-footer {
       transform: translateX(-10px);
@@ -59,10 +56,10 @@ footer {
     justify-content: center;
     @media screen and (max-width: 890px) {
       position: absolute;
-      left: 9%;
+      left: 4%;
       width: 40%;
+      top: 134px;
       justify-content: flex-end;
-      padding-right: 4%;
     }
     @media screen and (max-width: 420px) {
       padding-right: 10%;
@@ -96,7 +93,8 @@ footer {
     @media screen and (max-width: 890px) {
       width: 40%;
       position: absolute;
-      right: 6%;
+      right: 4%;
+      top: 134px;
       justify-content: right;
     }
     ul {
@@ -155,7 +153,7 @@ footer {
       position: absolute;
       bottom: -30px;
       left: 8px;
-      font-size: 13px;
+      font-size: 15px;
       color: $BrightRed;
       @media screen and (max-width: 890px) {
         left: 24%;
@@ -183,16 +181,96 @@ footer {
       }
     }
   }
+
   small {
     color: #b3b3b3;
     position: absolute;
     bottom: 24%;
     right: 14%;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 
     @media screen and(max-width:890px) {
       bottom: 2%;
       right: unset;
+      font-size: 0.7rem;
     }
+  }
+}
+.facebook {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &:hover {
+    background-image: url(../images/icon-facebook-orange.svg);
+  }
+  @media screen and (max-width: 890px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.youtube {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-youtube.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background-image: url(../images/icon-youtube-orange.svg);
+  }
+  @media screen and (max-width: 890px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.twitter {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background-image: url(../images/icon-twitter-orange.svg);
+  }
+  @media screen and (max-width: 890px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.pinterest {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-pinterest.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background-image: url(../images/icon-pinterest-orange.svg);
+  }
+  @media screen and (max-width: 890px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.instagram {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &:hover {
+    background-image: url(../images/icon-instagram-orange.svg);
+  }
+  @media screen and (max-width: 890px) {
+    width: 30px;
+    height: 30px;
   }
 }

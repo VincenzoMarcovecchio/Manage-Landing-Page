@@ -93,6 +93,9 @@ header ul {
     position: fixed;
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: linear-gradient(white, black);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     top: -20px;
     left: 0;
     right: 0;
@@ -780,7 +783,7 @@ footer .first-column {
   footer .first-column {
     width: 100%;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     height: 80px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -794,29 +797,27 @@ footer .first-column a {
   color: #1d1e25;
 }
 
+footer .first-column a:last-child {
+  margin-right: 0;
+}
+
 @media screen and (max-width: 890px) {
   footer .first-column a {
     margin-right: 25px;
   }
 }
 
-footer .first-column svg :hover {
-  fill: #f25f3a;
-}
-
-@media screen and (max-width: 890px) {
-  footer .first-column .social-wrapper {
-    width: 400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+footer .first-column .social-wrapper {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer .first-column .logo-footer {
@@ -838,12 +839,12 @@ footer .first-list {
 @media screen and (max-width: 890px) {
   footer .first-list {
     position: absolute;
-    left: 9%;
+    left: 4%;
     width: 40%;
+    top: 134px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding-right: 4%;
   }
 }
 
@@ -892,7 +893,8 @@ footer .second-list {
   footer .second-list {
     width: 40%;
     position: absolute;
-    right: 6%;
+    right: 4%;
+    top: 134px;
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
@@ -982,7 +984,7 @@ footer .form .error {
   position: absolute;
   bottom: -30px;
   left: 8px;
-  font-size: 13px;
+  font-size: 15px;
   color: #f25f3a;
 }
 
@@ -1022,12 +1024,113 @@ footer small {
   position: absolute;
   bottom: 24%;
   right: 14%;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 890px) {
   footer small {
     bottom: 2%;
     right: unset;
+    font-size: 0.7rem;
+  }
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.facebook:hover {
+  background-image: url(../images/icon-facebook-orange.svg);
+}
+
+@media screen and (max-width: 890px) {
+  .facebook {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.youtube {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-youtube.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.youtube:hover {
+  background-image: url(../images/icon-youtube-orange.svg);
+}
+
+@media screen and (max-width: 890px) {
+  .youtube {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter:hover {
+  background-image: url(../images/icon-twitter-orange.svg);
+}
+
+@media screen and (max-width: 890px) {
+  .twitter {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.pinterest {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-pinterest.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pinterest:hover {
+  background-image: url(../images/icon-pinterest-orange.svg);
+}
+
+@media screen and (max-width: 890px) {
+  .pinterest {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon-instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.instagram:hover {
+  background-image: url(../images/icon-instagram-orange.svg);
+}
+
+@media screen and (max-width: 890px) {
+  .instagram {
+    width: 30px;
+    height: 30px;
   }
 }

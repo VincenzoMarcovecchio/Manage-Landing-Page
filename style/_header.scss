@@ -29,6 +29,9 @@ header {
         height: 110vh;
         position: fixed;
         background: linear-gradient(white, black);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
         top: -20px;
         left: 0;
         right: 0;
