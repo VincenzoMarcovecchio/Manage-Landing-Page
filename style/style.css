@@ -151,7 +151,6 @@ header .btn-header {
   width: 130px;
   height: 40px;
   font-weight: 600;
-  outline: none;
   letter-spacing: 0.3px;
   cursor: pointer;
   -webkit-box-shadow: 0px 5px 8px 1px rgba(242, 95, 58, 0.33);
@@ -318,7 +317,6 @@ header .hamburger-icon {
   width: 120px;
   height: 40px;
   font-weight: 600;
-  outline: none;
   letter-spacing: 0.3px;
   cursor: pointer;
   -webkit-box-shadow: 0px 5px 8px 1px rgba(242, 95, 58, 0.33);
@@ -602,7 +600,6 @@ header .hamburger-icon {
   width: 120px;
   height: 40px;
   font-weight: 600;
-  outline: none;
   letter-spacing: 0.3px;
   cursor: pointer;
   -webkit-box-shadow: 0px 5px 8px 1px rgba(242, 95, 58, 0.33);
@@ -1006,7 +1003,6 @@ footer .form .go {
   height: 40px;
   background-color: #f25f3a;
   color: white;
-  outline: none;
   letter-spacing: 0.3px;
   cursor: pointer;
   font-weight: 600;
